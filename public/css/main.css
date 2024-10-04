@@ -1,0 +1,48 @@
+body {
+   background-image: linear-gradient(to bottom, #2b0444, #370652, #430860, #500a6e, #5d0c7c, #691189, #761797, #831ca5, #9226b5, #a12fc6, #b039d7, #bf42e8);
+   background-attachment: fixed;
+}
+
+button {
+    background-image: linear-gradient(to right, #0f0b22, #15112c, #1d1436, #28163f, #331748, #38164c, #3e1550, #441353, #441054, #430c54, #430855, #420455);
+}
+a {
+    text-decoration: none;
+}
+
+.c-user {
+    font-size: 100px;
+}
+
+.form-control {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: solid white 2px;
+}
+.form-control:focus {
+    color: white;
+    border: none;
+    border-bottom: solid white 2px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.form-control::placeholder {
+    color: rgb(197, 193, 193);
+}
+
+.input-group-text {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: solid white 2px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

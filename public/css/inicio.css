@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to left top, #bb31b4, #9233a9, #6a329b, #422e89, #152775);
+    background-attachment: fixed;    
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.c-datos {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form {
+    width: 70%;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.table {
+    width: 90%;
+}
+
+.registrar_producto {
+    width: 70%;
+    background-image: linear-gradient(to right top, #6b1a67, #521c60, #3a1b57, #23184b, #0b143e);
+    background-repeat: no-repeat;
+    border: 1px solid #451d7e;
+    border-radius: 10px;
+}
+
+.editar_producto {
+    width: 70%;
+    background-image: linear-gradient(to right top, #676b1a, #5b5f16, #4f5412, #43490f, #383e0b);
+    background-repeat: no-repeat;
+    border: 1px solid #7d7c15;
+    border-radius: 10px;
+}
