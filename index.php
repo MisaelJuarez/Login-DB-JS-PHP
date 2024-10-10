@@ -36,6 +36,7 @@ if (!isset($_SESSION['usuario'])) {
                     <i class="bi bi-box-arrow-left me-2"></i>
                     Cerrar sesión
                 </button>
+                <a href="./informacion_usuario.php" class="btn btn-info">Informacion</a>
             </div>
         </div>
     </div>
